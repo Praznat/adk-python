@@ -134,6 +134,9 @@ exclude = ['src/**/*.sh']
 [tool.flit.module]
 name = "google.adk"
 
+[tool.flit.package]
+dir = "src"
+
 [tool.isort]
 # Organize imports following Google style-guide
 force_single_line = true
